@@ -1,0 +1,99 @@
+2017/04/06 15:48:10 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 15:51:42 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 15:51:44 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 15:58:54 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 15:59:14 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 15:59:15 [C] [asm_amd64.s:514] the request url is  /
+2017/04/06 15:59:15 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/homecontroller/index.tpl
+2017/04/06 15:59:15 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:514
+2017/04/06 15:59:15 [C] [asm_amd64.s:514] C:/Go/src/runtime/panic.go:489
+2017/04/06 15:59:15 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/template.go:73
+2017/04/06 15:59:15 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:254
+2017/04/06 15:59:15 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:205
+2017/04/06 15:59:15 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:185
+2017/04/06 15:59:15 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/router.go:816
+2017/04/06 15:59:15 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:2568
+2017/04/06 15:59:15 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:1825
+2017/04/06 15:59:15 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:2197
+2017/04/06 15:59:46 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 15:59:47 [C] [asm_amd64.s:514] the request url is  /
+2017/04/06 15:59:47 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/home/index
+2017/04/06 15:59:47 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:514
+2017/04/06 15:59:47 [C] [asm_amd64.s:514] C:/Go/src/runtime/panic.go:489
+2017/04/06 15:59:47 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/template.go:73
+2017/04/06 15:59:47 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:254
+2017/04/06 15:59:47 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:205
+2017/04/06 15:59:47 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:185
+2017/04/06 15:59:47 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/router.go:816
+2017/04/06 15:59:47 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:2568
+2017/04/06 15:59:47 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:1825
+2017/04/06 15:59:47 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:2197
+2017/04/06 15:59:49 [C] [asm_amd64.s:514] the request url is  /
+2017/04/06 15:59:49 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/home/index
+2017/04/06 15:59:49 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:514
+2017/04/06 15:59:49 [C] [asm_amd64.s:514] C:/Go/src/runtime/panic.go:489
+2017/04/06 15:59:49 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/template.go:73
+2017/04/06 15:59:49 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:254
+2017/04/06 15:59:49 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:205
+2017/04/06 15:59:49 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:185
+2017/04/06 15:59:49 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/router.go:816
+2017/04/06 15:59:49 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:2568
+2017/04/06 15:59:49 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:1825
+2017/04/06 15:59:49 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:2197
+2017/04/06 16:00:06 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:00:09 [C] [asm_amd64.s:514] the request url is  /
+2017/04/06 16:00:09 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/home/index
+2017/04/06 16:00:09 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:514
+2017/04/06 16:00:09 [C] [asm_amd64.s:514] C:/Go/src/runtime/panic.go:489
+2017/04/06 16:00:09 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/template.go:73
+2017/04/06 16:00:09 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:254
+2017/04/06 16:00:09 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:205
+2017/04/06 16:00:09 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:185
+2017/04/06 16:00:09 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/router.go:816
+2017/04/06 16:00:09 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:2568
+2017/04/06 16:00:09 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:1825
+2017/04/06 16:00:09 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:2197
+2017/04/06 16:00:10 [C] [asm_amd64.s:514] the request url is  /
+2017/04/06 16:00:10 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/home/index
+2017/04/06 16:00:10 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:514
+2017/04/06 16:00:10 [C] [asm_amd64.s:514] C:/Go/src/runtime/panic.go:489
+2017/04/06 16:00:10 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/template.go:73
+2017/04/06 16:00:10 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:254
+2017/04/06 16:00:10 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:205
+2017/04/06 16:00:10 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:185
+2017/04/06 16:00:10 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/router.go:816
+2017/04/06 16:00:10 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:2568
+2017/04/06 16:00:10 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:1825
+2017/04/06 16:00:10 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:2197
+2017/04/06 16:00:22 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:01:07 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:01:09 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:02:36 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:38:11 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:38:35 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:38:37 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:38:44 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:38:46 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:39:28 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:40:50 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:45:23 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:58:06 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:58:08 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 16:58:11 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 17:00:06 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 17:03:50 [D] [controller.go:252] parse template err: home/index.tpl template: home/index.tpl:84: function "urlfro" not defined
+2017/04/06 17:03:53 [D] [controller.go:252] parse template err: home/index.tpl template: home/index.tpl:84: function "urlfro" not defined
+2017/04/06 17:03:59 [D] [controller.go:252] parse template err: home/index.tpl template: home/index.tpl:84: function "urlfro" not defined
+2017/04/06 17:04:11 [W] [templatefunc.go:261] urlfor endpoint must like path.controller.method
+2017/04/06 17:04:13 [W] [templatefunc.go:261] urlfor endpoint must like path.controller.method
+2017/04/06 17:05:54 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 17:06:41 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 17:06:45 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 17:06:47 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 17:07:08 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 17:07:47 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 17:07:49 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 17:07:52 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 17:14:56 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 17:16:07 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/06 17:16:10 [I] [asm_amd64.s:2197] http server Running on http://:8088
