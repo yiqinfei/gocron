@@ -13,13 +13,14 @@ type TaskController struct {
 func (p *TaskController) Index() {
 	p.Prepare()
 	p.TplName = "home/index.tpl"
-
+	p.Data["TaskActive"] = true
 
 }
 
 func (p *TaskController) Edit() {
 	p.Prepare()
 	p.TplName = "home/edit.tpl"
+	p.Data["TaskActive"] = true
 	p.Data["Model"] = models.NewTask()
 
 	task_id,_ := strconv.Atoi(p.Ctx.Input.Param(":id"))

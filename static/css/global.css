@@ -28,6 +28,9 @@ label{
     font-weight: 600 !important;
     font-size: 13px;
 }
+.label-inverse{
+    background-color: #333333;
+}
 .error-message{
     color: red !important;
 }

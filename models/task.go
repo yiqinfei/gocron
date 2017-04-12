@@ -22,11 +22,15 @@ type Task struct {
 	Shell string 		`orm:"column(shell);type(text)" json:"shell"`
 	// Remark 备注
 	Remark string		`orm:"column(remark);type(text)" json:"remark"`
-	// MemberId 所有者
+	// MemberId 所有者.
 	MemberId int		`orm:"column(member_id)" json:"member_id"`
-	// CreateTime 创建时间
+	//StartTime 任务在该之间后开始执行.
+	StartTime time.Time	`orm:"column(start_time)" json:"start_time"`
+	// EndTime 任务截至到该时间，停止任务.
+	EndTime	time.Time	`orm:"column(end_time)" json:"end_time"`
+	// CreateTime 创建时间.
 	CreateTime time.Time	`orm:"column(create_time);auto_now_add;type(datetime)" json:"create_time"`
-	// UpdateTime 最后更新时间
+	// UpdateTime 最后更新时间.
 	UpdateTime time.Time	`orm:"column(update_time);auto_now_add;type(datetime)" json:"update_time"`
 }
 

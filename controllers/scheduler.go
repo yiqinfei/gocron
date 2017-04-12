@@ -7,7 +7,6 @@ type SchedulerController struct {
 func (p *SchedulerController) Index()  {
 	p.Prepare()
 	p.TplName = "scheduler/index.tpl"
-
-
+	p.Data["TaskActive"] = true
 }
 

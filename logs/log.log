@@ -97,3 +97,14 @@
 2017/04/06 17:14:56 [I] [asm_amd64.s:2197] http server Running on http://:8088
 2017/04/06 17:16:07 [I] [asm_amd64.s:2197] http server Running on http://:8088
 2017/04/06 17:16:10 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/12 09:11:03 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/12 10:06:38 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/12 10:10:46 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/12 10:34:48 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/12 10:35:21 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/12 10:40:37 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/12 10:47:37 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/12 14:00:30 [D] [controller.go:252] parse template err: home/edit.tpl template: home/edit.tpl:42: unexpected "!" in command
+2017/04/12 14:00:31 [D] [controller.go:252] parse template err: home/edit.tpl template: home/edit.tpl:42: unexpected "!" in command
+2017/04/12 14:00:31 [D] [controller.go:252] parse template err: home/edit.tpl template: home/edit.tpl:42: unexpected "!" in command
+2017/04/12 14:00:32 [D] [controller.go:252] parse template err: home/edit.tpl template: home/edit.tpl:42: unexpected "!" in command
