@@ -108,3 +108,89 @@
 2017/04/12 14:00:31 [D] [controller.go:252] parse template err: home/edit.tpl template: home/edit.tpl:42: unexpected "!" in command
 2017/04/12 14:00:31 [D] [controller.go:252] parse template err: home/edit.tpl template: home/edit.tpl:42: unexpected "!" in command
 2017/04/12 14:00:32 [D] [controller.go:252] parse template err: home/edit.tpl template: home/edit.tpl:42: unexpected "!" in command
+2017/04/13 09:01:08 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/13 14:10:59 [D] [template.go:171] parse template err: home/edit.tpl template: home/edit.tpl:149: missing value for command
+2017/04/13 14:10:59 [I] [asm_amd64.s:2197] http server Running on http://:8088
+2017/04/13 14:13:23 [D] [template.go:171] parse template err: home/edit.tpl template: home/edit.tpl:149: missing value for command
+2017/04/13 14:13:23 [I] [asm_amd64.s:2197] http server Running on http://:8282
+2017/04/13 14:13:42 [D] [controller.go:252] parse template err: home/edit.tpl template: home/edit.tpl:149: missing value for command
+2017/04/13 14:13:42 [C] [asm_amd64.s:514] the request url is  /cron/edit/
+2017/04/13 14:13:42 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/home/edit.tpl
+2017/04/13 14:13:42 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:514
+2017/04/13 14:13:42 [C] [asm_amd64.s:514] C:/Go/src/runtime/panic.go:489
+2017/04/13 14:13:42 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/template.go:73
+2017/04/13 14:13:42 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:254
+2017/04/13 14:13:42 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:205
+2017/04/13 14:13:42 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:185
+2017/04/13 14:13:42 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/router.go:816
+2017/04/13 14:13:42 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:2568
+2017/04/13 14:13:42 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:1825
+2017/04/13 14:13:42 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:2197
+2017/04/13 14:14:19 [D] [template.go:171] parse template err: home/edit.tpl template: home/edit.tpl:149: missing value for command
+2017/04/13 14:14:19 [I] [asm_amd64.s:2197] http server Running on http://:8282
+2017/04/13 14:14:29 [D] [controller.go:252] parse template err: home/edit.tpl template: home/edit.tpl:149: missing value for command
+2017/04/13 14:14:29 [C] [asm_amd64.s:514] the request url is  /task/edit/
+2017/04/13 14:14:29 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/home/edit.tpl
+2017/04/13 14:14:29 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:514
+2017/04/13 14:14:29 [C] [asm_amd64.s:514] C:/Go/src/runtime/panic.go:489
+2017/04/13 14:14:29 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/template.go:73
+2017/04/13 14:14:29 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:254
+2017/04/13 14:14:29 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:205
+2017/04/13 14:14:29 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:185
+2017/04/13 14:14:29 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/router.go:816
+2017/04/13 14:14:29 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:2568
+2017/04/13 14:14:29 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:1825
+2017/04/13 14:14:29 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:2197
+2017/04/13 14:14:30 [D] [controller.go:252] parse template err: home/edit.tpl template: home/edit.tpl:149: missing value for command
+2017/04/13 14:14:30 [C] [asm_amd64.s:514] the request url is  /task/edit/
+2017/04/13 14:14:30 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/home/edit.tpl
+2017/04/13 14:14:30 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:514
+2017/04/13 14:14:30 [C] [asm_amd64.s:514] C:/Go/src/runtime/panic.go:489
+2017/04/13 14:14:30 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/template.go:73
+2017/04/13 14:14:30 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:254
+2017/04/13 14:14:30 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:205
+2017/04/13 14:14:30 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:185
+2017/04/13 14:14:30 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/router.go:816
+2017/04/13 14:14:30 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:2568
+2017/04/13 14:14:30 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:1825
+2017/04/13 14:14:30 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:2197
+2017/04/13 14:15:03 [C] [asm_amd64.s:514] the request url is  /task/edit/
+2017/04/13 14:15:03 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/home/edit.tpl
+2017/04/13 14:15:03 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:514
+2017/04/13 14:15:03 [C] [asm_amd64.s:514] C:/Go/src/runtime/panic.go:489
+2017/04/13 14:15:03 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/template.go:73
+2017/04/13 14:15:03 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:254
+2017/04/13 14:15:03 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:205
+2017/04/13 14:15:03 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:185
+2017/04/13 14:15:03 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/router.go:816
+2017/04/13 14:15:03 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:2568
+2017/04/13 14:15:03 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:1825
+2017/04/13 14:15:03 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:2197
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] the request url is  /task/edit/
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/home/edit.tpl
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:514
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] C:/Go/src/runtime/panic.go:489
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/template.go:73
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:254
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:205
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:185
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/router.go:816
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:2568
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:1825
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:2197
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] the request url is  /task/edit/
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/home/edit.tpl
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:514
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] C:/Go/src/runtime/panic.go:489
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/template.go:73
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:254
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:205
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/controller.go:185
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] E:/Go/src/github.com/lifei6671/gocron/vendor/github.com/astaxie/beego/router.go:816
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:2568
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] C:/Go/src/net/http/server.go:1825
+2017/04/13 14:15:04 [C] [asm_amd64.s:514] C:/Go/src/runtime/asm_amd64.s:2197
+2017/04/13 14:15:08 [D] [template.go:171] parse template err: task/edit.tpl template: task/edit.tpl:149: missing value for command
+2017/04/13 14:15:08 [I] [asm_amd64.s:2197] http server Running on http://:8282
+2017/04/13 14:15:31 [D] [template.go:171] parse template err: task/edit.tpl template: task/edit.tpl:149: missing value for command
+2017/04/13 14:15:31 [I] [asm_amd64.s:2197] http server Running on http://:8282

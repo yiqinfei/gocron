@@ -1,5 +1,5 @@
 appname = gocron
-httpport = 8080
+httpport = 8282
 runmode = dev
 sessionon = true
 sessionname = gocron_id

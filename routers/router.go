@@ -7,7 +7,7 @@ import (
 
 func init()  {
 	beego.Router("/", &controllers.TaskController{},"*:Index")
-	beego.Router("/cron/edit/?:id", &controllers.TaskController{},"*:Edit")
+	beego.Router("/task/edit/?:id", &controllers.TaskController{},"*:Edit")
 
 	beego.Router("/scheduler/list/:id",&controllers.SchedulerController{},"*:Index")
 }
