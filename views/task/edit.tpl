@@ -302,6 +302,7 @@
 {{template "widgets/footer.tpl" .}}
 <script type="text/javascript" src="/static/scripts/scripts.js"></script>
 <script type="text/javascript">
+
     var app = new Vue({
         el : "#addTaskForm",
         delimiters : ['${','}'],
@@ -377,11 +378,36 @@
                     text = "每天;在每" + this.trigger.second.interval + "天的 ";
 
                     if(this.trigger.start_time !== ""){
-                        var time = new Date(this.trigger.start_time);
-                        text += time.getUTCHours() + ":" + time.getMinutes();
+                        var start_time = new Date(this.trigger.start_time);
+                        text += start_time.getUTCHours() + ":" + start_time.getMinutes();
                     }
                 }else if(this.task_type === 'one'){
-                    text = "一次;在" + this.trigger.one.execution_time;
+                    text = "一次; 在" + this.trigger.one.execution_time;
+                }else if(this.task_type === 'week'){
+                    text = "每周";
+                    if(this.trigger.week.interval > 0){
+                        text += "; 每隔 " + this.trigger.week.interval + " 周执行一次";
+                    }else{
+                        text += "; 每周执行一次";
+                    }
+                    text += "; 在每周的 ";
+
+                    for(var index in this.trigger.week.weeks){
+                        text += convertWeekToChinese(this.trigger.week.weeks[index]) + ",";
+                    }
+
+                    if(this.trigger.start_time !== ""){
+                        text += "; 生效时间 " + this.trigger.start_time ;
+                    }
+                    if(this.trigger.end_time !== ""){
+
+                        text += "; 截至时间 " + this.trigger.end_time;
+                    }
+                }else if(this.task_type === "month"){
+                    text = "每月; 在";
+                    for(var index in this.trigger.month.months){
+                        text += convertMonthToChinese(this.trigger.month.months[index]);
+                    }
                 }
                 return text;
             }
