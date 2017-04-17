@@ -58,3 +58,7 @@ func (p *Task) Find(id int) (*Task,error) {
 	}
 	return p,nil
 }
+
+func (p *Task) Save()  {
+
+}

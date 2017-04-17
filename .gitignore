@@ -25,3 +25,5 @@ _testmain.go
 .gitignore
 /conf/app.conf
 .idea
+/gocron.exe~
+*.log
